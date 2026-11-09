@@ -133,27 +133,8 @@
 
 ## 6. 实验结果记录
 
-每个实验完成后，应保存关键执行过程和结果截图。
-
-建议按照以下方式组织证据：
-
-```text
-evidence/
-├── screenshots/
-│   ├── 01_ddl_sync/
-│   ├── 02_dml_sync/
-│   └── 03_concurrent_update/
-└── logs/
-```
-
-截图建议包括：
-
-- 关键 SQL 语句及执行结果。
-- 不同节点的查询结果。
-- 并发更新时 Node1 的等待状态。
-- 两个事务提交后的最终查询结果。
-
 实验结论及详细结果记录见 `docs/results.md`。
+实验截图见 `experiment-evidence.docx`。
 
 ## 7. 实验注意事项
 
